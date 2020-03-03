@@ -15,7 +15,7 @@ module.exports = withCSS({
 
         knooppunten.forEach((loop, _) => {
             loop.nodes.forEach((node, _) => {
-                paths[`/${node.location}`] = { page: `/${node.location}`}
+                paths[`wandeling/${node.location}`] = { page: `wandeling/${node.location}`}
             })
         });
 
