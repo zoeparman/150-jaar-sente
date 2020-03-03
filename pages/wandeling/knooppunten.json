@@ -1,0 +1,26 @@
+[
+  {"name":  "basis", "nodes":  [
+    {"name":  "Boogmakerij", "location":  "basis/boogmakerij"},
+    {"name":  "Dussartlaan", "location":  "basis/dussartlaan"},
+    {"name":  "Izegemsestraat", "location":  "basis/izegemsestraat"},
+    {"name":  "Kapel", "location":  "basis/kapel"},
+    {"name":  "Kerkhof", "location":  "basis/kerkhof"},
+    {"name":  "Platse", "location":  "basis/platse"},
+    {"name":  "School", "location":  "basis/school"},
+    {"name":  "Schutters", "location":  "basis/schutters"},
+    {"name":  "Sentestraat", "location":  "basis/sentestraat"},
+    {"name":  "Vanwildemeerschstraat", "location":  "basis/vanwildemeerschstraat"},
+    {"name":  "Verhaeghestraat", "location":  "basis/verhaeghestraat"},
+    {"name":  "Vijfde wiel", "location":  "basis/vijfdewiel"}
+  ]},
+  {"name":  "heule-ldl", "nodes":  [
+    {"name":  "Beiaard", "location":  "heule-ldl/beiaard"},
+    {"name":  "Melkerij", "location":  "heule-ldl/melkerij"},
+    {"name":  "Sentestraat", "location":  "heule-ldl/sentestraat"},
+    {"name":  "Steenovens", "location":  "heule-ldl/steenovens"}
+  ]},
+  {"name": "kuurne", "nodes":  [
+    {"name":  "Station", "location":  "kuurne/station"},
+    {"name":  "Steenbakkerij", "location":  "kuurne/steenbakkerij"}
+  ]}
+]
