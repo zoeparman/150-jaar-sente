@@ -13,10 +13,6 @@ const Kermis = () => (
             <h1>Sente Kermis</h1>
             <p>
                 Sente Kermis is dit jaar ook in het thema van 150 jaar Sente.
-                Iemand met een creatievere geest moet hier nog iets mooiers schrijven!
-            </p>
-            <p>
-                <Button variant="primary">Knopje voor de leute</Button>
             </p>
         </Jumbotron>
         <Container>
