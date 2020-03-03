@@ -1,5 +1,5 @@
 .carousel-inner > .carousel-item {
-    height: 70vh;
+    height: 50vh;
 }
 
 /*.carousel-inner > .carousel-item > img {
@@ -15,8 +15,8 @@
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-    height: 32rem;
-    background-color: #777;
+    height: 24rem;
+    background-color: #ffffff;
 }
 .carousel-item > img {
     position: absolute;
@@ -26,4 +26,13 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     height: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+     filter: invert(100%);
+}
+
+.carousel-indicators {
+    filter: invert(100%);
 }

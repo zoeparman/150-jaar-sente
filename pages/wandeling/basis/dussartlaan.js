@@ -1,7 +1,7 @@
-export default function About() {
+import NavBar from '../../../components/NavBar'
+
+export default function Page() {
     return (
-        <div>
-            <p>Boogmakerij</p>
-        </div>
+        <NavBar/>
     );
 }

@@ -2,8 +2,6 @@ import knooppunten from "./wandeling/knooppunten";
 import Link from "next/link";
 import NavBar from '../components/NavBar'
 
-const TOUR_ROOT = "wandeling/";
-
 const Wandeling = () => (
     <div>
         <NavBar/>
@@ -15,7 +13,7 @@ const Wandeling = () => (
                         {loop.nodes.map((node, _) => {
                             return (
                                 <li>
-                                    <Link href={TOUR_ROOT + node.location}>
+                                    <Link href={node.location}>
                                         <a>{node.name}</a>
                                     </Link>
                                 </li>
