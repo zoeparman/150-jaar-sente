@@ -20,7 +20,7 @@ const Wandeling = () => (
                         {loop.nodes.map((node, _) => {
                             return (
                                 <li>
-                                    <Link href={node.location}>
+                                    <Link href={`/wandeling/${node.location}`}>
                                         <a>{node.name}</a>
                                     </Link>
                                 </li>
