@@ -25,7 +25,7 @@ const Layout = props => {
                     background-position:	center;
                     background-size:		cover;
                     background-repeat:		no-repeat;
-                    opacity: 0.7;
+                    opacity: 0.5;
                 }
             `}</style>
         </div>
