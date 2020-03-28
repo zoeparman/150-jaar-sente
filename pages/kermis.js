@@ -1,14 +1,13 @@
-import NavBar from '../components/NavBar';
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import Layout from '../components/Layout';
 
 const Kermis = () => (
-    <div>
-        <NavBar/>
+    <Layout>
         <Jumbotron className="text-center">
             <h1>Sente Kermis</h1>
             <p>
@@ -58,7 +57,7 @@ const Kermis = () => (
                 </Col>
             </Row>
         </Container>
-    </div>
+    </Layout>
 );
 
 export default Kermis;

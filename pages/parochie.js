@@ -1,16 +1,15 @@
-import NavBar from '../components/NavBar';
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Layout from '../components/Layout';
 
 const Parochie = () => (
-    <div>
-        <NavBar/>
+    <Layout>
         <Jumbotron className="text-center">
             <h1>De Parochie</h1>
             <p>
                 Bestaat 150 jaar.
             </p>
         </Jumbotron>
-    </div>
+    </Layout>
 );
 
 export default Parochie;
