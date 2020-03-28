@@ -8,13 +8,10 @@ import Layout from '../components/Layout';
 
 const Kermis = () => (
     <Layout>
-        <Jumbotron className="text-center">
-            <h1>Sente Kermis</h1>
-            <p>
-                Sente Kermis is dit jaar ook in het thema van 150 jaar Sente.
-            </p>
-        </Jumbotron>
         <Container>
+            <Row>
+                <h1>150 Jaar Sente Kermis</h1>
+            </Row>
             <Row>
                 <Col>
                     <Card style={{ width: '18rem' }}>

@@ -15,10 +15,10 @@ const NavBar = () => (
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-                <Nav.Link href="/kermis">Kermis</Nav.Link>
-                <Nav.Link href="/parochie">Parochie</Nav.Link>
-                <Nav.Link href="/wandeling">Wandeling</Nav.Link>
-                <Nav.Link href="/vlag">Vlag</Nav.Link>
+                <Nav.Link href="/kermis">Sente Kermis</Nav.Link>
+                <Nav.Link href="/parochie">De Parochie</Nav.Link>
+                <Nav.Link href="/wandeling">Cultuurwandeling</Nav.Link>
+                <Nav.Link href="/vlag">Bevlag je huizen!</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         <style jsx global>{`

@@ -9,22 +9,22 @@ class IndexPage extends React.Component {
     render() {
         let imageLinks = [
             {
-                "title": "Kermis",
+                "title": "Sente Kermis",
                 "imageUrl": "resources/image_links/kermis.jpg",
                 "link": "/kermis"
             },
             {
-                "title": "Parochie",
+                "title": "De Parochie",
                 "imageUrl": "resources/image_links/parochie.jpg",
                 "link": "/parochie"
             },
             {
-                "title": "Wandeling",
+                "title": "Cultuurwandeling",
                 "imageUrl": "resources/image_links/wandeling.jpg",
                 "link": "/wandeling"
             },
             {
-                "title": "Vlag",
+                "title": "Bevlag je huizen!",
                 "imageUrl": "resources/image_links/vlag.jpg",
                 "link": "/vlag"
             },
