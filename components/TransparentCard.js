@@ -2,9 +2,9 @@ import Card from "react-bootstrap/Card";
 
 const TransparentCard = props => (
     <Card>
-        <Card.Header style={{fontSize: 32}}>
+        {props.title && <Card.Header style={{fontSize: 32}}>
             {props.title}
-        </Card.Header>
+        </Card.Header>}
         <Card.Body style={{fontSize: 24}}>
             {props.children}
         </Card.Body>

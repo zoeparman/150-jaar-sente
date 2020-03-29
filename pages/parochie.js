@@ -30,7 +30,7 @@ const Parochie = () => (
                     <TransparentCard title={"Jaarprogramma"} id={"programma"}>
                     <ul>
                         <li><b>15 maart (uitgesteld):</b> Jubileumviering - opgeluisterd door koor H. Familie - Bosmolens</li>
-                        <li><b>24 mei:</b> "Vruchten der Aarde": misviereing op de hoeve Joris Geldhof - Sint-Arnoldusstraat 6, Lendelede</li>
+                        <li><b>24 mei:</b> "Vruchten der Aarde": misviering op de hoeve Joris Geldhof - Sint-Arnoldusstraat 6, Lendelede</li>
                         <li><b>6 september:</b> Ker(k)misviering</li>
                         <li><b>29 november:</b> Feestviering H. Katharina - verzorgd door Gregoriaans koor</li>
                         <li><b>24 december:</b> Middernachtmis.</li>
