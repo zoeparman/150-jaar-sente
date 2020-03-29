@@ -9,23 +9,23 @@ class IndexPage extends React.Component {
     render() {
         let imageLinks = [
             {
+                "title": "Knooppuntenwandeling",
+                "imageUrl": "/resources/image_links/wandeling.jpg",
+                "link": "/wandeling"
+            },
+            {
                 "title": "Sente Kermis",
-                "imageUrl": "resources/image_links/kermis.jpg",
+                "imageUrl": "/resources/image_links/kermis.jpg",
                 "link": "/kermis"
             },
             {
                 "title": "De Parochie",
-                "imageUrl": "resources/image_links/parochie.jpg",
+                "imageUrl": "/resources/image_links/parochie.jpg",
                 "link": "/parochie"
             },
             {
-                "title": "Cultuurwandeling",
-                "imageUrl": "resources/image_links/wandeling.jpg",
-                "link": "/wandeling"
-            },
-            {
                 "title": "Bevlag je huizen!",
-                "imageUrl": "resources/image_links/vlag.jpg",
+                "imageUrl": "/resources/image_links/vlag.jpg",
                 "link": "/vlag"
             },
         ];
@@ -49,7 +49,7 @@ class IndexPage extends React.Component {
                             return (
                                 <Col lg={6} style={{
                                     padding:10
-                                }}>
+                                }} key={value.title}>
                                     <HoverImage
                                         imageUrl={value.imageUrl}
                                         title={value.title}

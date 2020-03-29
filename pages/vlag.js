@@ -15,7 +15,9 @@ const Vlag = () => (
                     <Image src="/resources/vlag.png" style={{ height: '40rem' }}/>
                 </Col>
                 <Col>
-                    <p>Een vlag bestellen kan via <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_tMuZ1LSZhdtwwdcYNCh-vMkcK5gEqg_dEgevL89aeZJQSA/viewform">Dit formulier.</a></p>
+                    <p>Een vlag bestellen kan via <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_tMuZ1LSZhdtwwdcYNCh-vMkcK5gEqg_dEgevL89aeZJQSA/viewform" target="_blank">Dit formulier.</a></p>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe_tMuZ1LSZhdtwwdcYNCh-vMkcK5gEqg_dEgevL89aeZJQSA/viewform?embedded=true"
+                            width={640} height={720} frameBorder={0} marginHeight={0} marginWidth={0}>Laden...</iframe>
                 </Col>
             </Row>
         </Container>
