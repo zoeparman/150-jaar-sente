@@ -25,9 +25,9 @@ const Parochie = () => (
                     </TransparentCard>
                 </Col>
             </Row>
-            <Row>
+            <Row id={"programma"}>
                 <Col style={{marginTop: 25}}>
-                    <TransparentCard title={"Jaarprogramma"} id={"programma"}>
+                    <TransparentCard title={"Jaarprogramma"}>
                     <ul>
                         <li><b>15 maart (uitgesteld):</b> Jubileumviering - opgeluisterd door koor H. Familie - Bosmolens</li>
                         <li><b>24 mei:</b> "Vruchten der Aarde": misviering op de hoeve Joris Geldhof - Sint-Arnoldusstraat 6, Lendelede</li>

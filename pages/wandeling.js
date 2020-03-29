@@ -37,8 +37,9 @@ class Wandeling extends React.Component {
                                     <TransparentCard
                                         title={value.link
                                             ? <a href={value.link} target="_blank">{value.caption}</a>
-                                            : value.caption}>
-                                        <Image src={imageRoot + value.image} fluid rounded/>
+                                            : value.caption}
+                                        key={index}>
+                                        <Image src={imageRoot + value.image} fluid rounded />
                                     </TransparentCard>
                                 </Col>
                             );

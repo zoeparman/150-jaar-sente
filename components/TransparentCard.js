@@ -5,6 +5,7 @@ const TransparentCard = props => (
         {props.title && <Card.Header style={{fontSize: 32}}>
             {props.title}
         </Card.Header>}
+        {props.img && <Card.Img variant="top" src={props.img}/>}
         <Card.Body style={{fontSize: 24}}>
             {props.children}
         </Card.Body>

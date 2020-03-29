@@ -5,52 +5,50 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Layout from '../components/Layout';
+import PageTitle from "../components/PageTitle";
+import TransparentCard from "../components/TransparentCard";
 
 const Kermis = () => (
     <Layout>
         <Container>
+            <PageTitle>
+                150 Jaar Sente Kermis
+            </PageTitle>
             <Row>
-                <h1>150 Jaar Sente Kermis</h1>
-            </Row>
-            <Row>
-                <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="/resources/carousel-2.jpg" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
+                <Col lg={6} style={{marginTop: 25}}>
+                    <TransparentCard
+                        title={"Koerse"}
+                        img={"/resources/carousel-2.jpg"}>
+                        De vrijdag ist koerse e zeg
+                    </TransparentCard>
                 </Col>
-                <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="/resources/carousel-2.jpg" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
+                <Col lg={6} style={{marginTop: 25}}>
+                    <TransparentCard
+                        title={"Kindernamiddag"}
+                        img={"/resources/carousel-2.jpg"}>
+                        De zaterdagmiddag ist kindernamiddag e zeg
+                    </TransparentCard>
                 </Col>
-                <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="/resources/carousel-2.jpg" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
+                <Col lg={6} style={{marginTop: 25}}>
+                    <TransparentCard
+                        title={"Dirty Daddy's"}
+                        img={"/resources/carousel-2.jpg"}>
+                        De zaterdagavond komen de dirty daddy's e zeg
+                    </TransparentCard>
+                </Col>
+                <Col lg={6} style={{marginTop: 25}}>
+                    <TransparentCard
+                        title={"Petanquetornooi"}
+                        img={"/resources/carousel-2.jpg"}>
+                        De zondag ist petanquetornooi e zeg
+                    </TransparentCard>
+                </Col>
+                <Col lg={6} style={{marginTop: 25}}>
+                    <TransparentCard
+                        title={"Beenhespe"}
+                        img={"/resources/carousel-2.jpg"}>
+                        De zondag ist wok beenhespe e zeg
+                    </TransparentCard>
                 </Col>
             </Row>
         </Container>
