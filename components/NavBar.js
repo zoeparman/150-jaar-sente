@@ -1,6 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from "react-bootstrap/NavDropdown";
+import {Button, ButtonGroup, Dropdown} from "react-bootstrap";
 
 const NavBar = () => (
     <Navbar bg={"light"} expand="lg">
@@ -17,7 +18,12 @@ const NavBar = () => (
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
                 <Nav.Link href="/wandeling">Knooppuntenwandeling</Nav.Link>
-                <Nav.Link href="/kermis">Sente Kermis</Nav.Link>
+                <NavDropdown id="basic-nav-dropdown" title="Sente Kermis">
+                    <NavDropdown.Item href={"/kermis#vrijdag"}>Vrijdag</NavDropdown.Item>
+                    <NavDropdown.Item href={"/kermis#zaterdag"}>Zaterdag</NavDropdown.Item>
+                    <NavDropdown.Item href={"/kermis#zondag"}>Zondag</NavDropdown.Item>
+                    <NavDropdown.Item href={"/kermis#maandag"}>Maandag</NavDropdown.Item>
+                </NavDropdown>
                 <NavDropdown id={"basic-nav-dropdown"} title={"De Parochie"}>
                     <NavDropdown.Item href={"/parochie"}>150 Jaar Parochie Sente</NavDropdown.Item>
                     <NavDropdown.Item href={"/parochie#programma"}>Jaarprogramma</NavDropdown.Item>
@@ -29,13 +35,3 @@ const NavBar = () => (
 );
 
 export default NavBar;
-
-/*
-        <style jsx global>{`
-        .navbar,
-.navbar-default {
-    background-image: none !important;
-background-color: rgba(255,255,255,.7);
-}
-`}</style>
- */

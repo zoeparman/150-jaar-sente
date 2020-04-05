@@ -1,14 +1,15 @@
 import Card from "react-bootstrap/Card";
 
 const TransparentCard = props => (
-    <Card>
-        {props.title && <Card.Header style={{fontSize: 32}}>
-            {props.title}
-        </Card.Header>}
-        {props.img && <Card.Img variant="top" src={props.img}/>}
-        <Card.Body style={{fontSize: 24}}>
+    <Card style={{marginTop: 25}}>
+        {props.img && <Card.Img variant="top" src={props.img} style={{height: 250, objectFit: "cover"}}/>}
+        <Card.Body>
+            {props.title && <Card.Title style={{fontWeight: "bold"}}>{props.title}</Card.Title>}
             {props.children}
         </Card.Body>
+        {props.footer && <Card.Footer>
+            {props.footer}
+        </Card.Footer>}
         <style jsx global>{`
           .card {
             background-color: rgba(245, 245, 245, 0.7) !important;

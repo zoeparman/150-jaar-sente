@@ -7,7 +7,8 @@
     {"name":  "Kerkhof", "location":  "basis/kerkhof"},
     {"name":  "Platse", "location":  "basis/platse"},
     {"name":  "School", "location":  "basis/school"},
-    {"name":  "Schutters", "location":  "basis/schutters"},
+    {"name":  "Senter", "location":  "basis/senter"},
+    {"name":  "Sprange", "location":  "basis/sprange"},
     {"name":  "Sentestraat", "location":  "basis/sentestraat"},
     {"name":  "Vanwildemeerschstraat", "location":  "basis/vanwildemeerschstraat"},
     {"name":  "Verhaeghestraat", "location":  "basis/verhaeghestraat"},
@@ -16,8 +17,9 @@
   {"name":  "heule-ldl", "nodes":  [
     {"name":  "Beiaard", "location":  "heule-ldl/beiaard"},
     {"name":  "Melkerij", "location":  "heule-ldl/melkerij"},
-    {"name":  "Sentestraat", "location":  "heule-ldl/sentestraat"},
-    {"name":  "Steenovens", "location":  "heule-ldl/steenovens"}
+    {"name":  "Steenovens", "location":  "heule-ldl/steenovens"},
+    {"name":  "Vaernewyck", "location":  "heule-ldl/vaernewyck"},
+    {"name":  "Rietjevlas", "location": "heule-ldl/rietjevlas"}
   ]},
   {"name": "kuurne", "nodes":  [
     {"name":  "Station", "location":  "kuurne/station"},

@@ -12,8 +12,6 @@ const PageTitle = props => (
             </Col>
         <style jsx>{`
           .title {
-            background-color: rgba(255,255,255,0.5);
-            border-radius: 15px;
             margin-top: 25px;
             margin-bottom: 25px;
             padding: 10px;
