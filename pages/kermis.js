@@ -47,27 +47,31 @@ const Kermis = () => (
                     <CardDeck>
                         <TransparentCard
                             title={"Kindernamiddag"}
-                            img={"/resources/kermis/Silent-Disco.jpg"}
+                            img={"/resources/kermis/kindernamiddag.jpg"}
                             footer="13u30 - 18u00">
-                            TODO BESCHRIJVING KINDERNAMIDDAG
+                            De zaterdagnamiddag staat in thema van de jongsten onder ons.
+                            Springen op het springkasteel, schminken, ravotten, ... Het kan allemaal,
+                            terwijl mama en papa ondertussen gezellig iets drinken in het zonnetje.
                         </TransparentCard>
                         <TransparentCard
                             title={<a href="https://www.facebook.com/thewoodbeez/" target="_blank">The Woodbeez</a>}
                             img={"/resources/kermis/woodbeez.jpg"}
                             footer="20u30 - 21u30">
-                            TODO BESCHRIJVING WOODBEEZ
+                            's Avonds genieten we van een gezellig optreden van The Woodbeez.
                         </TransparentCard>
                         <TransparentCard
                             title={<a href="https://www.youtube.com/watch?v=FHefmNmb0Uo" target="_blank">Dirty Daddies</a>}
                             img={"/resources/kermis/dirty\ daddies.jpg"}
                             footer="22u00 - 23u30">
-                            TODO BESCHRIJVING DIRTY DADDIES
+                            Met meer dan 500 shows in de benen is de kans dat je nog nooit van The Dirty Daddies gehoord hebt klein.
+                            Zeer klein. De eerste en enige coverband ooit die op eigen kracht twee keer AFAS Live uitverkocht heeft,
+                            was al te zien bij RTL Late Night, NOS op 3 en BNN en sloten festivals als Zwarte Cross, Paaspop en Concert At Sea af.
                         </TransparentCard>
                         <TransparentCard
                             title={"Afterparty"}
-                            img={"/resources/kermis/dirty\ daddies.jpg"}
+                            img={"/resources/kermis/afterparty.jpg"}
                             footer="23u30 - ...">
-                            TODO BESCHRIJVING AFTERPARTY
+                            We sluiten de zaterdagavond met een afterparty tot in de vroege uurtjes.
                         </TransparentCard>
                     </CardDeck>
                 </Col>
@@ -85,21 +89,21 @@ const Kermis = () => (
                     <CardDeck>
                         <TransparentCard
                             title={"Eucharistieviering"}
-                            img={"/resources/kermis/dirty\ daddies.jpg"}
+                            img={"/resources/kermis/eucharistie.jpg"}
                             footer="10u00 - 11u00">
-                            TODO BESCHRIJVING EUCHARISTIE
+                            Zondagmorgen worden is iedereen welkom in de kerk voor de eucharistieviering, ook in thema van 150 jaar sente.
                         </TransparentCard>
                         <TransparentCard
                             title={"Aperitiefconcert"}
-                            img={"/resources/kermis/dirty\ daddies.jpg"}
+                            img={"/resources/kermis/aperitiefconcert.jpg"}
                             footer="11u00 - 12u30">
-                            TODO BESCHRIJVING APERITIEFCONCERT
+                            Na de misviering genieten we van zon, drank, muziek, sfeer en gezelligheid bij het aperitiefconcert.
                         </TransparentCard>
                         <TransparentCard
                             title={"Cote à l'os"}
                             img={"/resources/kermis/cotealos.jpg"}
                             footer="12u30 - 14u00">
-                            TODO BESCHRIJVING COTE A LOS
+                            Zondagmiddag worden we weer verwend met heerlijke cote à l'os op de barbecue. Niet te missen!
                         </TransparentCard>
                     </CardDeck>
                 </Col>
@@ -109,14 +113,15 @@ const Kermis = () => (
                     <CardDeck>
                         <TransparentCard
                             title={"Pétanquetornooi"}
-                            img={"/resources/kermis/dirty\ daddies.jpg"}
+                            img={"/resources/kermis/petanque.jpg"}
                             footer="14u00 - 19u00">
-                            TODO BESCHRIJVING PETANQUETORNOOI
+                            Zondagnamiddag volgt de strijd der titanen: het pétanquetornooi. Wie gaat dit jaar met de felbegeerde titel lopen?
                         </TransparentCard>
                         <TransparentCard
                             title={"Verrassing!"}
                             img={"/resources/kermis/surprise.png"}
                             footer="???">
+                            Verrassing!
                         </TransparentCard>
                     </CardDeck>
                 </Col>
@@ -132,7 +137,7 @@ const Kermis = () => (
                         <Card.Img variant="top" src="/resources/kermis/koen-crucke.jpg" style={{height: 350, objectFit: "cover"}}/>
                         <Card.Body>
                             <Card.Title style={{fontWeight: "bold"}}>Seniorennamiddag met Koen Crucke</Card.Title>
-                            TODO BESCHRIJVING SENIORENNAMIDDAG
+                            We sluiten het kermisweekend af met een namiddag voor de nieuwe jeugd, met entertainment door Koen Crucke.
                         </Card.Body>
                         <Card.Footer>
                             13u00 - 16u30

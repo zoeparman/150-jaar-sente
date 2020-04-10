@@ -13,11 +13,11 @@ module.exports = withCSS({
             '/wandeling': { page: '/wandeling' }
         };
 
-        knooppunten.forEach((loop, _) => {
+        /*knooppunten.forEach((loop, _) => {
             loop.nodes.forEach((node, _) => {
                 paths[`wandeling/${node.location}`] = { page: `wandeling/${node.location}`}
             })
-        });
+        });*/
 
         return paths;
     }
