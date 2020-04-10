@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 
 const TransparentCard = props => (
-    <Card style={{marginTop: 25}}>
+    <Card style={{marginTop: 25, marginBottom: 25}}>
         {props.img && <Card.Img variant="top" src={props.img} style={{height: 250, objectFit: "cover"}}/>}
         <Card.Body>
             {props.title && <Card.Title style={{fontWeight: "bold"}}>{props.title}</Card.Title>}
