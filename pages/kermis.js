@@ -45,12 +45,6 @@ const Kermis = () => (
                                 </Col>
                             </Accordion.Collapse>
                         </Card>
-                    </Accordion>
-                </Col>
-            </Row>
-            <Row>
-                <Col md={12}>
-                    <Accordion>
                         <Card>
                             <Card.Header>
                                 <Accordion.Toggle as={Button} variant="link" eventKey="1">
@@ -95,12 +89,6 @@ const Kermis = () => (
                                 </Col>
                             </Accordion.Collapse>
                         </Card>
-                    </Accordion>
-                </Col>
-            </Row>
-            <Row>
-                <Col md={12}>
-                    <Accordion>
                         <Card>
                             <Card.Header>
                                 <Accordion.Toggle as={Button} variant="link" eventKey="2">
@@ -153,12 +141,6 @@ const Kermis = () => (
                                 </div>
                             </Accordion.Collapse>
                         </Card>
-                    </Accordion>
-                </Col>
-            </Row>
-            <Row>
-                <Col md={12}>
-                    <Accordion>
                         <Card>
                             <Card.Header>
                                 <Accordion.Toggle as={Button} variant="link" eventKey="3">
