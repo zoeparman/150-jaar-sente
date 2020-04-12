@@ -18,9 +18,12 @@
     "@fortawesome/react-fontawesome": "^0.1.9",
     "@zeit/next-css": "^1.0.1",
     "bootstrap": "^4.4.1",
-    "next": "^9.2.1",
+    "next": "^9.3.4",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.17",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-grid-gallery": "^0.5.5",
+    "strip": "^3.0.0",
+    "strip-ansi": "^6.0.0"
   }
 }

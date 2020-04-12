@@ -10,7 +10,8 @@ module.exports = withCSS({
             '/kermis': { page: '/kermis' },
             '/parochie': { page: '/parochie' },
             '/vlag': { page: '/vlag' },
-            '/wandeling': { page: '/wandeling' }
+            '/wandeling': { page: '/wandeling' },
+            '/wandeling/test': { page: '/wandeling/testknooppunt' }
         };
 
         /*knooppunten.forEach((loop, _) => {
