@@ -2,54 +2,16 @@
 title: Home
 layout: default
 ---
-<div class="container">
-  <div class="row">
-    <div class="col" style="display:flex;justify-content:center;align-items:center">
-        <img src="/assets/images/logo.svg" fluid style="margin-top: 5em;"/>
-    </div>
-  </div>
 
-  <div class="row">
-    <div class="col-lg-6 hover-wrapper">
-      <div class="hovereffect">
-        <img src="/assets/images/home/kermis.jpg" class="img-fluid"/>
-        <div class="overlay">
-          <h2>Sente Kermis</h2>
-          <a class="info" href="/kermis">Meer info</a>
-        </div>
-      </div>
-    </div>
+{% include index/carousel.html %}
 
-    <div class="col-md-6 hover-wrapper">
-      <div class="hovereffect">
-        <img src="/assets/images/home/vlag.jpg" class="img-fluid"/>
-        <div class="overlay">
-          <h2>Bevlag je huizen!</h2>
-          <a class="info" href="/vlag">Meer info</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row" style="margin-top: 35px;">
-    <div class="col">
-      <h1 class="display-3">150 jaar Parochie Sint-Katharina</h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <img src="/assets/images/pastorij-kerk.jpg" class="img-fluid"/>
-    </div>
-    <div class="col-md-6">
-      <div class="card">
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>
-              In 1870, op 15 maart, werd E.H. Adolf Debien als eerste pastoor benoemd in Sint-Katharina. Hij bracht heel wat vernieuwing in Sente. De kapel was te klein geworden. De Sentenaren moesten buiten voor de deur de mis bijwonen. Pastoor Debien wilde een grotere kerk bouwen. De drie gemeenten, Heule, Lendelede en Kuurne beloofden een grotere kerk te bouwen en een kerkhof op te richten op kosten van de drie gemeenten. De neo-romaanse kerk werd op 7 september 1879 ingewijd door de deken van Kortrijk. Sindsdien werd de eerste zondag van september gevierd als kermiszondag. E.H.Debien bouwde ook een schoolgebouw en 4 Zusters van het klooster van Heule kwamen onderwijs geven.
-            </p>
-            <footer class="blockquote-footer">uit <cite title={"Geschiedenis van St.-Katherina"}>Geschiedenis van St.-Katherina</cite> door K.Suykers</footer>
-          </blockquote>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="container marketing">
+  {% include index/columns.html %}
+  {% include index/featurettes.html %}
 </div>
+
+
+<footer class="container">
+  <p class="float-right"><a href="#">Back to top</a></p>
+  <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer>
