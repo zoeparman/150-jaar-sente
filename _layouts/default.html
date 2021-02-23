@@ -7,7 +7,11 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Carousel Template for Bootstrap</title>
+    {% if page.title %}
+        <title>{{ page.title }} | 150 Jaar Sente</title>
+    {% else %}
+        <title>150 Jaar Sente</title>
+    {% endif %}
 
     <!-- Include compiled CSS -->
     <link href="/assets/css/styles.css" rel="stylesheet">
@@ -16,7 +20,9 @@
     
     {% include header.html %}
     <main role="main">
-        {{ content }}
+        <div class="container-fluid">
+            {{ content }}
+        </div>
     </main>
 
     <!-- Bootstrap core JavaScript

@@ -1,0 +1,18 @@
+---
+title: Wandeling
+layout: default
+permalink: /wandeling
+---
+
+<div class="container marketing">
+    <h1>Wandeling</h1>
+    <ul>
+        {% for knooppunt in site.data.knooppunten %}
+        <li>
+            <a href="/wandeling/{{ knooppunt.id }}">
+                {{ knooppunt.description }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

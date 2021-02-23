@@ -8,3 +8,9 @@ _site/
 .jekyll-metadata
 
 # End of https://www.gitignore.io/api/jekyll
+
+# Also ignore images
+*.JPG
+*.jpg
+*.docx
+*.jpeg
