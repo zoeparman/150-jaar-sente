@@ -2,21 +2,26 @@
 layout: default
 ---
 
+{% capture imagefolder %}
+/images/knooppunten/{{ page.kpid }}
+{% endcapture %}
+
 <script src="/js/lightbox-plus-jquery.min.js"></script>
 <link href="/css/lightbox.min.css" rel="stylesheet"/>
 
-{% for knooppunt in site.data.knooppunten %}
-    {% if knooppunt.id == page.knooppuntid %}
-    <h1>{{ knooppunt.description }}</h1>
-    <ol>
-        {% for image in knooppunt.images %}
-            <li>
-                {{ image.caption }}<br>
-                <a href="{{ knooppunt.imagefolder }}/{{ image.name }}" data-lightbox="{{ knooppunt.id }}" title="{{ image.caption }}">
-                    <img src="{{ knooppunt.imagefolder }}/{{ image.name }}" style="max-width:300px">
-                </a>
-            </li>
-        {% endfor %}
-    </ol>
-    {% endif %}
+<h1>{{ page.title }}</h1>
+
+
+<div class="card-columns">
+
+{% for image in page.images %}
+    <div class="card text-center mt-2">
+        <a href="{{ imagefolder }}/{{ image.name }}" data-lightbox="{{ page.kpid }}" title="{{ image.caption }}">
+            <img class="card-img-top" src="{{ imagefolder }}/{{ image.name }}" style="max-width:300px">
+        </a>
+        <div class="card-body">
+            <p class="card-text">{{ image.caption }}</p>
+        </div>
+    </div>
 {% endfor %}
+</div>
