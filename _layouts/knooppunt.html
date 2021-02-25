@@ -15,13 +15,15 @@ layout: default
 <div class="card-columns">
 
 {% for image in page.images %}
-    <div class="card text-center mt-2">
+    <div class="card mt-2">
         <a href="{{ imagefolder }}/{{ image.name }}" data-lightbox="{{ page.kpid }}" title="{{ image.caption }}">
-            <img class="card-img-top" src="{{ imagefolder }}/{{ image.name }}" style="max-width:300px">
+            <img class="card-img-top" src="{{ imagefolder }}/{{ image.name }}">
         </a>
-        <div class="card-body">
-            <p class="card-text">{{ image.caption }}</p>
-        </div>
+        {% if image.caption %}
+            <div class="card-body">
+                <p class="card-text">{{ image.caption }}</p>
+            </div>
+        {% endif %}
     </div>
 {% endfor %}
 </div>

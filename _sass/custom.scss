@@ -13,6 +13,11 @@ body {
     text-align: center;
 }
 
+/* Make images in cards fit complete card */
+.card-img-top {
+  object-fit: cover;
+}
+
 /* BACKGROUND IMAGE
 -------------------------------------------------- */
 #bg {
