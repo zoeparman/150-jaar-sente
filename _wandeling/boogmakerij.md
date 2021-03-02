@@ -3,22 +3,22 @@ layout: knooppunt
 kpid: boogmakerij
 title: Boogmakerij
 images:
-  - caption: First image (beiaard)
+  - caption: Zicht op de Izegemsestraat in de jaren '60 voor de aanleg van de Driekoningenweg.
     name: 1.jpg
-  - caption: Second image (beiaard)
+  - caption: 
     name: 2.jpg
-  - caption: First image (beiaard)
+  - caption: Bogenmaker Octaaf Dhondt aan het werk in zijn atelier. Het atelier stond naast de woning en werd verbouwd in 2007.
     name: 3.jpg
-  - caption: Second image (beiaard)
+  - caption: Foto van de woning van de bogenmaker met atelier vroeger en nu.
+    name: 4.jpg
+  - caption: 
     name: 5.jpg
-  - caption: First image (beiaard)
+  - caption: 
     name: 6.jpg
-  - caption: Second image (beiaard)
+  - caption: Foto van de vlaskapellen in de Izegemsestraat. De Izegemsestraat vroeger en nu.
     name: 7.jpg
-  - caption: First image (beiaard)
+  - caption: 
     name: 8.jpg
-  - caption: Second image (beiaard)
+  - caption: Weide met vlas in de Izegemsestraat aan de spoorweg in 2016.
     name: 9.jpg
-  - caption: Second image (beiaard)
-    name: 10.jpg
 ---

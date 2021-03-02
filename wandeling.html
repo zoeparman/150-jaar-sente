@@ -6,13 +6,22 @@ permalink: /wandeling
 
 <div class="container marketing">
     <h1>Wandeling</h1>
-    <ul>
-        {% for knooppunt in site.wandeling %}
-        <li>
-            <a href="/wandeling/{{ knooppunt.kpid }}">
-                {{ knooppunt.title }}
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
+    <div class="row">
+        <div class="col">
+            <object type="image/svg+xml" data="/images/wandeling.svg" style="max-width: 100%"></object>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" style="text-align: left">
+            <ul>
+                {% for knooppunt in site.wandeling %}
+                <li>
+                    <a href="/wandeling/{{ knooppunt.kpid }}">
+                        {{ knooppunt.title }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
 </div>

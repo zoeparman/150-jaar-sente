@@ -3,22 +3,18 @@ layout: knooppunt
 kpid: kapel
 title: Kapel
 images:
-  - caption: First image (beiaard)
+  - caption:
     name: 1.jpg
-  - caption: Second image (beiaard)
+  - caption: Postkaart kapel voorkant en achterkant oktober 1910
     name: 2.jpg
-  - caption: First image (beiaard)
+  - caption:
     name: 3.jpg
-  - caption: Second image (beiaard)
+  - caption: In de woning een beetje verderop was eerst een kapsalon, daarna Snackbar Rosendael , later café, nu private woning.
+    name: 4.jpg
+  - caption:
     name: 5.jpg
-  - caption: First image (beiaard)
+  - caption: Brief van priester Vanden Bulcke aan de bisschop van Brugge Mgr. Waffelaers (deel 1).
     name: 6.jpg
-  - caption: Second image (beiaard)
+  - caption: Brief van priester Vanden Bulcke aan de bisschop van Brugge Mgr. Waffelaers (deel 2).
     name: 7.jpg
-  - caption: First image (beiaard)
-    name: 8.jpg
-  - caption: Second image (beiaard)
-    name: 9.jpg
-  - caption: Second image (beiaard)
-    name: 10.jpg
 ---
