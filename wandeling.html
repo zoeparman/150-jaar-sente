@@ -8,7 +8,7 @@ permalink: /wandeling
     <h1>Wandeling</h1>
     <div class="row">
         <div class="col">
-            <object type="image/svg+xml" data="/images/wandeling.svg" style="max-width: 100%"></object>
+            <object type="image/svg+xml" data="{{site.baseurl}}/images/wandeling.svg" style="max-width: 100%"></object>
         </div>
     </div>
     <div class="row">
@@ -16,7 +16,7 @@ permalink: /wandeling
             <ul>
                 {% for knooppunt in site.wandeling %}
                 <li>
-                    <a href="/wandeling/{{ knooppunt.kpid }}">
+                    <a href="{{site.baseurl}}/wandeling/{{ knooppunt.kpid }}">
                         {{ knooppunt.title }}
                     </a>
                 </li>
