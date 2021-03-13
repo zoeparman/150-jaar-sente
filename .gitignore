@@ -14,8 +14,3 @@ _site/
 *.jpg
 *.docx
 *.jpeg
-
-# Exception for docs directory
-!docs/*.jpg
-!docs/*.JPG
-!docs/*.jpeg
