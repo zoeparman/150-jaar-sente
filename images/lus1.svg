@@ -302,16 +302,6 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#a"
-       id="linearGradient1122"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(0.76032987,1.3152186)"
-       x1="13.152186"
-       y1="0"
-       x2="13.152186"
-       y2="26.304373" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#a"
        id="linearGradient1146"
        gradientUnits="userSpaceOnUse"
        gradientTransform="scale(0.76032987,1.3152186)"
@@ -329,6 +319,36 @@
        y1="0"
        x2="13.152186"
        y2="26.304373" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#a"
+       id="linearGradient980"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.76032987,1.3152186)"
+       x1="13.152186"
+       y1="0"
+       x2="13.152186"
+       y2="26.304373" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#a"
+       id="linearGradient1032"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.76032987,1.3152186)"
+       x1="13.152186"
+       y1="0"
+       x2="13.152186"
+       y2="26.304373" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#a"
+       id="linearGradient4834"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.76032987,1.3152186)"
+       x1="13.152186"
+       y1="0"
+       x2="13.152186"
+       y2="26.304373" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -337,9 +357,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="983.60041"
-     inkscape:cy="909.47338"
+     inkscape:zoom="1.4"
+     inkscape:cx="822.28971"
+     inkscape:cy="861.79672"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -630,7 +650,7 @@
              x="5.1715035"
              y="15.77298"
              id="tspan1391-94"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">6</tspan>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">7</tspan>
         </text>
       </g>
     </a>
@@ -671,7 +691,7 @@
              x="5.1715035"
              y="15.77298"
              id="tspan1391-63"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">7</tspan>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">8</tspan>
         </text>
       </g>
     </a>
@@ -712,57 +732,16 @@
              x="5.1715035"
              y="15.77298"
              id="tspan1391-69"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">8</tspan>
-        </text>
-      </g>
-    </a>
-    <a
-       id="a904-45"
-       xlink:href="/wandeling/sprange"
-       target="_top"
-       onmouseover="this.children[0].children[0].style.fill = &quot;darkred&quot;"
-       transform="translate(45.299835,-14.283647)"
-       onmouseout="this.children[0].children[0].style.fill = &quot;rgb(240,89,79)&quot;">
-      <g
-         onmouseover=""
-         style="fill:none;fill-rule:evenodd"
-         transform="matrix(0.42576395,0,0,0.42576395,113.10469,174.40703)"
-         id="g1395-2">
-        <use
-           height="100%"
-           width="100%"
-           y="0"
-           x="0"
-           style="fill:url(#linearGradient1122)"
-           xlink:href="#b"
-           id="use1387-5" />
-        <path
-           style="stroke:#000000;stroke-opacity:0.24299999"
-           inkscape:connector-curvature="0"
-           d="m 9.997,33.055 c 2.184,-6.368 3.843,-10.773 4.982,-13.223 0.42,-0.902 0.893,-1.723 1.54,-2.715 0.157,-0.24 0.994,-1.493 1.217,-1.84 C 18.975,13.344 19.5,11.927 19.5,10 a 9.5,9.5 0 0 0 -19,0 c 0,2.012 0.507,3.462 1.695,5.372 0.23,0.37 1.228,1.892 1.484,2.3 0.471,0.753 0.857,1.434 1.208,2.152 1.198,2.452 2.9,6.858 5.11,13.231 z"
-           id="path1389-4" />
-        <text
-           y="3.77298"
-           x="2.5745041"
-           style="font-weight:700;font-size:16.57151985px;font-family:Arial-Black, 'Arial Black';letter-spacing:-0.25;fill:#1b1e2b;fill-opacity:0.53600003"
-           font-size="7"
-           font-weight="700"
-           letter-spacing="-.25"
-           id="text1393-7">
-          <tspan
-             x="5.1715035"
-             y="15.77298"
-             id="tspan1391-4"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">9</tspan>
         </text>
       </g>
     </a>
     <a
        id="a904-0"
-       xlink:href="/wandeling/tsenter"
+       xlink:href="/wandeling/klooster_school"
        target="_top"
        onmouseover="this.children[0].children[0].style.fill = &quot;darkred&quot;"
-       transform="translate(25.968927,-18.575459)"
+       transform="translate(18.598391,-21.599268)"
        onmouseout="this.children[0].children[0].style.fill = &quot;rgb(240,89,79)&quot;">
       <g
          onmouseover=""
@@ -794,7 +773,7 @@
              x="2.8220942"
              y="14.284403"
              id="tspan1391-3"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">11</tspan>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">12</tspan>
         </text>
       </g>
     </a>
@@ -835,7 +814,130 @@
              x="2.6239257"
              y="14.154395"
              id="tspan1391-49"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">11</tspan>
+        </text>
+      </g>
+    </a>
+    <a
+       id="a904-75-7"
+       xlink:href="/wandeling/mortierhoek"
+       target="_top"
+       onmouseover="this.children[0].children[0].style.fill = &quot;darkred&quot;"
+       transform="translate(98.13768,223.56387)"
+       onmouseout="this.children[0].children[0].style.fill = &quot;rgb(240,89,79)&quot;">
+      <g
+         onmouseover=""
+         style="fill:none;fill-rule:evenodd"
+         transform="matrix(0.42576395,0,0,0.42576395,113.10469,174.40703)"
+         id="g1395-9-5">
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           style="fill:url(#linearGradient980)"
+           xlink:href="#b"
+           id="use1387-2-3" />
+        <path
+           style="stroke:#000000;stroke-opacity:0.24299999"
+           inkscape:connector-curvature="0"
+           d="m 9.997,33.055 c 2.184,-6.368 3.843,-10.773 4.982,-13.223 0.42,-0.902 0.893,-1.723 1.54,-2.715 0.157,-0.24 0.994,-1.493 1.217,-1.84 C 18.975,13.344 19.5,11.927 19.5,10 a 9.5,9.5 0 0 0 -19,0 c 0,2.012 0.507,3.462 1.695,5.372 0.23,0.37 1.228,1.892 1.484,2.3 0.471,0.753 0.857,1.434 1.208,2.152 1.198,2.452 2.9,6.858 5.11,13.231 z"
+           id="path1389-2-5" />
+        <text
+           y="3.77298"
+           x="2.5745041"
+           style="font-weight:700;font-size:16.57151985px;font-family:Arial-Black, 'Arial Black';letter-spacing:-0.25;fill:#1b1e2b;fill-opacity:0.53600003"
+           font-size="7"
+           font-weight="700"
+           letter-spacing="-.25"
+           id="text1393-8-6">
+          <tspan
+             x="5.1715035"
+             y="15.77298"
+             id="tspan1391-9-2"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">6</tspan>
+        </text>
+      </g>
+    </a>
+    <a
+       id="a904-9-2"
+       xlink:href="/wandeling/dussartlaan"
+       target="_top"
+       onmouseover="this.children[0].children[0].style.fill = &quot;darkred&quot;"
+       transform="translate(45.299835,-24.33782)"
+       onmouseout="this.children[0].children[0].style.fill = &quot;rgb(240,89,79)&quot;">
+      <g
+         onmouseover=""
+         style="fill:none;fill-rule:evenodd"
+         transform="matrix(0.42576395,0,0,0.42576395,113.10469,174.40703)"
+         id="g1395-20-7">
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           style="fill:url(#linearGradient1032)"
+           xlink:href="#b"
+           id="use1387-68-0" />
+        <path
+           style="stroke:#000000;stroke-opacity:0.24299999"
+           inkscape:connector-curvature="0"
+           d="m 9.997,33.055 c 2.184,-6.368 3.843,-10.773 4.982,-13.223 0.42,-0.902 0.893,-1.723 1.54,-2.715 0.157,-0.24 0.994,-1.493 1.217,-1.84 C 18.975,13.344 19.5,11.927 19.5,10 a 9.5,9.5 0 0 0 -19,0 c 0,2.012 0.507,3.462 1.695,5.372 0.23,0.37 1.228,1.892 1.484,2.3 0.471,0.753 0.857,1.434 1.208,2.152 1.198,2.452 2.9,6.858 5.11,13.231 z"
+           id="path1389-92-9" />
+        <text
+           y="2.1543953"
+           x="0.026926093"
+           style="font-weight:700;font-size:13.2572155px;font-family:Arial-Black, 'Arial Black';letter-spacing:-0.25;fill:#1b1e2b;fill-opacity:0.53600003"
+           font-size="7"
+           font-weight="700"
+           letter-spacing="-.25"
+           id="text1393-66-3">
+          <tspan
+             x="2.6239257"
+             y="14.154395"
+             id="tspan1391-49-6"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">10</tspan>
+        </text>
+      </g>
+    </a>
+    <a
+       id="a904-0-2"
+       xlink:href="/wandeling/tsenter"
+       target="_top"
+       onmouseover="this.children[0].children[0].style.fill = &quot;darkred&quot;"
+       transform="translate(28.614761,-16.49659)"
+       onmouseout="this.children[0].children[0].style.fill = &quot;rgb(240,89,79)&quot;">
+      <g
+         onmouseover=""
+         style="fill:none;fill-rule:evenodd"
+         transform="matrix(0.42576395,0,0,0.42576395,113.10469,174.40703)"
+         id="g1395-78-8">
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           style="fill:url(#linearGradient4834)"
+           xlink:href="#b"
+           id="use1387-6-9" />
+        <path
+           style="stroke:#000000;stroke-opacity:0.24299999"
+           inkscape:connector-curvature="0"
+           d="m 9.997,33.055 c 2.184,-6.368 3.843,-10.773 4.982,-13.223 0.42,-0.902 0.893,-1.723 1.54,-2.715 0.157,-0.24 0.994,-1.493 1.217,-1.84 C 18.975,13.344 19.5,11.927 19.5,10 a 9.5,9.5 0 0 0 -19,0 c 0,2.012 0.507,3.462 1.695,5.372 0.23,0.37 1.228,1.892 1.484,2.3 0.471,0.753 0.857,1.434 1.208,2.152 1.198,2.452 2.9,6.858 5.11,13.231 z"
+           id="path1389-8-7" />
+        <text
+           y="2.2844048"
+           x="0.22509485"
+           style="font-weight:700;font-size:13.2572155px;font-family:Arial-Black, 'Arial Black';letter-spacing:-0.25;fill:#1b1e2b;fill-opacity:0.53600003"
+           font-size="7"
+           font-weight="700"
+           letter-spacing="-.25"
+           id="text1393-84-3">
+          <tspan
+             x="2.8220942"
+             y="14.284403"
+             id="tspan1391-3-6"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">13</tspan>
         </text>
       </g>
     </a>

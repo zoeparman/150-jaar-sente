@@ -119,6 +119,16 @@
          x="283.48215"
          y="27.124998" />
     </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#a"
+       id="linearGradient911"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.76032987,1.3152186)"
+       x1="13.152186"
+       y1="0"
+       x2="13.152186"
+       y2="26.304373" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -128,8 +138,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="383.84662"
-     inkscape:cy="137.83398"
+     inkscape:cx="94.951449"
+     inkscape:cy="931.38025"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -150,7 +160,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -171,10 +181,10 @@
     <g
        id="g30722"
        transform="matrix(0.11454206,0,0,0.11454206,313.35656,38.920416)"
-       style="stroke:#6300bb;stroke-width:23.09922981;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.58823529">
+       style="stroke:#000000;stroke-width:23.10068458;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.58823532">
       <path
          id="path30720"
-         style="fill:none;stroke:#6300bb;stroke-width:23.09922981;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.58823529"
+         style="fill:none;stroke:#000000;stroke-width:23.10068458;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.58823532"
          d="m 0,1744.7895 35.622237,59.976 4.45278,-1.764 38.961821,-22.9319 -7.792364,-17.6401 18.924314,-8.82 21.150702,-8.82 95.73476,-72.3247 3.33959,5.2921 15.58473,29.9883 4.45278,-1.764 71.24447,-31.7524 -1.11319,-1.764 54.54655,121.7168 6.67917,-3.528 244.90287,-105.8406 h 3.33959 l 18.92431,1.764 14.47154,-35.2805 7.79236,-12.3482 14.47153,-12.3482 31.16946,-22.9325 5.56598,-10.5843 36.73543,-241.6771 -1.1132,-17.641 -33.39584,-58.2154 -10.01876,-40.5746 -1.11319,-19.4053 7.79236,-45.8673 -1.11319,-10.5848 -3.33959,-10.5848 -66.79169,-77.6224 -74.58406,-52.9247 -229.31815,-153.48376 12.24514,-17.642 8.90556,-26.46305 13.35834,-24.69894 41.18821,-29.99166 16.69793,-15.87798 3.33958,-19.40646 -20.03751,-26.46344 11.13195,-14.11386 -73.47086,-107.61903 2.22639,-14.11407 10.01875,-22.93543 16.69792,-31.75685 1.1132,-14.11419 L 355.10918,469.31244 323.93972,395.21226 259.37441,262.88884 135.80978,26.4657 133.58339,12.350671 V 10.58629 L 153.6209,0 l 221.52578,107.62665 66.7917,38.81582 90.16879,63.51641 10.01875,3.52867 154.73409,3.52868 116.88547,49.40126 187.01672,174.66639 117.9987,125.2635 10.0187,22.93537 10.0188,3.52851 16.6979,14.11403 120.2251,114.67562 336.1848,-70.56942 278.2988,-59.98448 86.8292,-10.58555 95.7347,7.05703 48.9806,-3.52851 11.1319,17.64255 32.2827,24.69952 37.8486,14.11397 22.2639,17.64244 75.6973,105.85381 47.8674,93.50307 43.4146,112.90795 43.4146,127.01961 17.8111,29.9904 102.4139,105.8478 30.0563,37.0464 16.6979,12.3488 109.0931,58.2153 7.7924,7.0564 20.0375,17.6409 14.4715,29.9895 10.0188,35.2816 10.0187,68.7986 16.6979,68.7981 34.5091,105.8421 -41.1882,1.7641 -60.1126,1.764 -34.509,7.0561 -24.4903,7.056 -55.6597,29.9883 -14.4716,5.2921 -278.2987,-38.8084 h -20.0375 l -96.848,35.2803 -114.659,56.4483 -72.3577,21.1679 -64.5653,28.2239 -169.2056,58.2115 -41.1882,10.5839 -42.3015,-1.764 -40.075,-7.0559 h -22.2639 l -17.8111,3.5279 -408.5425,201.0909 -139.1494,58.2096 -17.8111,-35.2785 -48.9806,-88.1969 -208.16743,-208.1484 -82.37642,-77.616 -41.18821,-37.0443 -26.71668,-15.8762"
          inkscape:connector-curvature="0" />
     </g>
@@ -379,6 +389,47 @@
              x="5.1715035"
              y="15.77298"
              id="tspan1391-19"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">5</tspan>
+        </text>
+      </g>
+    </a>
+    <a
+       id="a904-36-7"
+       xlink:href="/wandeling/bergkapel"
+       target="_top"
+       onmouseover="this.children[0].children[0].style.fill = &quot;darkred&quot;"
+       transform="translate(207.02011,-145.07197)"
+       onmouseout="this.children[0].children[0].style.fill = &quot;rgb(240,89,79)&quot;">
+      <g
+         onmouseover=""
+         style="fill:none;fill-rule:evenodd"
+         transform="matrix(0.42576395,0,0,0.42576395,113.10469,174.40703)"
+         id="g1395-0-5">
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           style="fill:url(#linearGradient911)"
+           xlink:href="#b"
+           id="use1387-62-3" />
+        <path
+           style="stroke:#000000;stroke-opacity:0.24299999"
+           inkscape:connector-curvature="0"
+           d="m 9.997,33.055 c 2.184,-6.368 3.843,-10.773 4.982,-13.223 0.42,-0.902 0.893,-1.723 1.54,-2.715 0.157,-0.24 0.994,-1.493 1.217,-1.84 C 18.975,13.344 19.5,11.927 19.5,10 a 9.5,9.5 0 0 0 -19,0 c 0,2.012 0.507,3.462 1.695,5.372 0.23,0.37 1.228,1.892 1.484,2.3 0.471,0.753 0.857,1.434 1.208,2.152 1.198,2.452 2.9,6.858 5.11,13.231 z"
+           id="path1389-6-5" />
+        <text
+           y="3.77298"
+           x="2.5745041"
+           style="font-weight:700;font-size:16.57151985px;font-family:Arial-Black, 'Arial Black';letter-spacing:-0.25;fill:#1b1e2b;fill-opacity:0.53600003"
+           font-size="7"
+           font-weight="700"
+           letter-spacing="-.25"
+           id="text1393-1-6">
+          <tspan
+             x="5.1715035"
+             y="15.77298"
+             id="tspan1391-8-2"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold'">4</tspan>
         </text>
       </g>
