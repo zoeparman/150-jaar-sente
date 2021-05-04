@@ -2,9 +2,13 @@
 {{ site.baseurl }}/images/knooppunten/{{ page.kpid }}/{{include.filename}}
 {% endcapture %}
 
+{% capture href_thumb %}
+{{ site.baseurl }}/images/thumb/{{ page.kpid }}/{{include.filename}}
+{% endcapture %}
+
 <div class="card mt-2">
     <a href="{{href}}" data-lightbox="{{page.kpid}}" title="{{include.caption}}">
-        <img class="card-img-top" src="{{href}}">
+        <img class="card-img-top" src="{{href_thumb}}">
     </a>
     {% if include.caption %}
         <div class="card-body">
