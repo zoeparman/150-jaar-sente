@@ -118,3 +118,10 @@ body {
     margin-top: 7rem;
   }
 }
+
+// On large devices, container-kermis takes 80%. Otherwise, 100% (fluid).
+@media (min-width: 1320px) {
+    .container-kermis {
+        width: 80%
+    }
+}
