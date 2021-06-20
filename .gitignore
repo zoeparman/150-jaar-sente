@@ -10,7 +10,11 @@ _site/
 # End of https://www.gitignore.io/api/jekyll
 
 # Also ignore images
-*.JPG
-*.jpg
-*.docx
-*.jpeg
+**/*.JPG
+**/*.jpg
+**/*.docx
+**/*.jpeg
+
+!assets/images/**/*.jpg
+!assets/images/**/*.JPG
+!assets/images/**/*.jpeg
