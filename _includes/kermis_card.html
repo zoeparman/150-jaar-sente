@@ -7,5 +7,8 @@
     <p class="card-text">
         {{ include.text }}
     </p>
+    {% if include.href %}
+    <a href="{{ include.href }}" target="_blank" class="btn btn-primary">{{ include.linktext }}</a>
+    {% endif %}
   </div>
 </div>
