@@ -10,5 +10,8 @@
     {% if include.href %}
     <a href="{{ include.href }}" target="_blank" class="btn btn-primary">{{ include.linktext }}</a>
     {% endif %}
+    {% if include.href_disabled %}
+    <a class="btn btn-secondary disabled">{{ include.linktext }}</a>
+    {% endif %}
   </div>
 </div>

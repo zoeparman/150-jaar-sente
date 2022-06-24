@@ -10,13 +10,20 @@ permalink: /kermis/
         <!-- MAANDAG -->
         <div class="kermis-card-group">
           <div class="kermis-card-group-container">
-            <h1 class="display-5">Vrijdag: Opwarmen in de kroeg</h1>
+            <h2>Vrijdag: Opwarmen in de kroeg</h2>
             <div class="card-deck">
-              {% include kermis_card.html 
-              title="Bruine kroeg" 
-              img="bruine_kroeg.jpg" 
-              text="We beginnen het weekend gezellig in de bruine kroeg in 't Senter met caféspelen, een lekkere hamburger en een spelletje darts."
-              time="18u00 - ..." %}
+              <div class="card">
+                <img class="card-img-top" src="/assets/images/kermis/bruine_kroeg.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Bruine kroeg</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">18u00 - ...</h6>
+  
+                  <p class="card-text">
+                    We beginnen het weekend gezellig in de bruine kroeg in 't Senter met caféspelen, een lekkere hamburger en een dartstornooi.
+                  </p>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeExR1emNSXQDg_C2bmwuA50u4XuUvsjv6dmTTxukvk5iftNg/viewform" target="_blank" class="btn btn-primary">Schrijf je hier in voor het dartstornooi</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -40,8 +47,10 @@ permalink: /kermis/
               {% include kermis_card.html 
               title="Côte à l'os" 
               img="cotealos.jpg" 
-              text="Vanaf 18u30 kunnen we smullen van de heerlijke côte à l'os en BBQ-worsten."
-              time="18u30 - 20u30" %}
+              text="Vanaf 18u30 kunnen we smullen van de heerlijke côte à l'os en frikandellen voor de kindjes."
+              time="18u30 - 20u30"
+              href_disabled=true
+              linktext="Uitverkocht"%}
 
               <div class="card">
                 <img class="card-img-top" src="/assets/images/kermis/soul_avenue.jpg">
@@ -50,7 +59,7 @@ permalink: /kermis/
                     <h6 class="card-subtitle mb-2 text-muted">22u00 - ...</h6>
   
                   <p class="card-text">
-                    Soul Avenue is een party coverband, met onder andere Hannes Pype (ex-sentenaar en ex Johnny Turbo band). Repertoire van de band bestaat uit soul muziek van de jaren 80 aangevuld met hedendaagse Engelstalige dansmuziek.
+                    Soul Avenue is een party coverband, met onder andere Hannes Pype (ex-Sentenaar en ex Johnny Turbo band). Repertoire van de band bestaat uit soul muziek van de jaren 80 aangevuld met hedendaagse Engelstalige dansmuziek.
                   </p>
                 </div>
               </div>
@@ -79,7 +88,8 @@ permalink: /kermis/
               {% include kermis_card.html 
               title="Eucharistieviering" 
               img="eucharistie.jpg" 
-              text="Zondagmorgen is iedereen welkom in de kerk voor de eucharistieviering, ook in thema van 150 jaar Sente."
+              text="Zondagmorgen is iedereen welkom in de kerk voor de eucharistieviering, waar de nieuwe vlag en de
+              nieuwe kapel met het Sint-Katharinabeeld worden ingezegend."
               time="10u00 - 11u00" %}
               
               {% include kermis_card.html 
@@ -108,25 +118,36 @@ permalink: /kermis/
               title="Chiro-BBQ" 
               img="BBQ.jpg" 
               text="'s Middags verwent de Chiro ons met een heerlijke BBQ. Meer info omtrent inschrijving volgt."
-              time="12u00 - 14u00" %}
+              time="12u00 - 14u00"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdRWdMLV45zLt9VpLSCbjNHc_NlxePggoefNO4N_kC0Om5YMw/viewform"
+              linktext="Reserveer hier"%}
               
               {% include kermis_card.html 
-              title="Pétanquetornooi" 
+              title="Petanquetornooi" 
               img="petanque.jpg" 
-              text="Zondagnamiddag volgt de strijd der titanen: het pétanquetornooi.
+              text="Zondagnamiddag volgt de strijd der titanen: het petanquetornooi.
                     Wie gaat dit jaar met de felbegeerde titel lopen?"
-              time="14u00 - 19u00" %}
+              time="14u00 - 19u00"
+              href_disabled=true
+              linktext="Inschrijvingen volzet"%}
             </div>
           </div>
         </div>
       </div>
       
-      <div class="col-lg-6">
+      <div class="col-lg-12">
         <!-- MAANDAG -->
         <div class="kermis-card-group">
           <div class="kermis-card-group-container">
             <h1 class="display-5">Maandag: Nagenieten met Koen</h1>
             <div class="card-deck">
+              {% include kermis_card.html 
+              title="Jaargetijde" 
+              img="jaargetijde.jpg" 
+              text="Op het jaargetijde herdenken we onze overledenen van het voorbije jaar, met achteraf een bezoek aan het kerkhof."
+              time="09u00"
+              %}
+
               {% include kermis_card.html 
               title="Seniorennamiddag met Koen Crucke" 
               img="koen-crucke.jpg" 
@@ -135,6 +156,7 @@ permalink: /kermis/
               time="14u00 - 17u00"
               href="https://docs.google.com/forms/d/e/1FAIpQLSfjY96fwBu1WVAe19_GT9x6304xbykhAN2MuY01FeYjx7kUGQ/viewform?usp=sf_link"
               linktext="Reserveer hier"%}
+
             </div>
           </div>
         </div>
