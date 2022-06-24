@@ -1,6 +1,5 @@
 ---
 title: Kermis
-layout: root
-permalink: /kermis/
+permalink: /kermis
 redirect_to: https://kermis.sente.be
 ---
