@@ -1,3 +1,5 @@
 #baseurl: "/150-jaar-sente"
 url: 150jaar.sente.be
 permalink: pretty
+plugins:
+    - jekyll-redirect-from
