@@ -1,5 +1,5 @@
 ---
 title: Kermis
-permalink: /kermis
+permalink: /kermis/
 redirect_to: https://kermis.sente.be
 ---
